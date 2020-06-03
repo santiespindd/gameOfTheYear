@@ -1,0 +1,15 @@
+.card-columns {
+      column-count: 4;
+  }
+
+
+  @media (min-width: 650px) and (max-width: 900px)  {
+    .card-columns {
+      column-count: 2;
+    }
+   }
+  @media (max-width: 650px) {
+    .card-columns {
+      column-count: 1;
+    }
+   }
